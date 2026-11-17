@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #16181D;  --surface: #1F232B;  --text: #EEF0F4;  --muted: #A3AAB8;
+  --accent: #E0709A;  --accent-text: #16181D;  --line: #2E343F;  --tile: "2A2230";
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-line: var(--line);
+  --color-tile: var(--tile);
+}
